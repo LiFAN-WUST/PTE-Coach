@@ -1,0 +1,16 @@
+{
+  "version": "ra-heuristic-0.1.0",
+  "scale": "0–100 training index; uncalibrated; not Pearson",
+  "weights": {"content": 0.35, "fluency": 0.35, "pronunciation": 0.2, "prosody": 0.1},
+  "wpm_comfort_band": [100, 180],
+  "speed_penalty_per_wpm": 0.3,
+  "speed_max_penalty": 25,
+  "internal_silence_free_ratio": 0.15,
+  "silence_penalty_per_ratio": 80,
+  "silence_max_penalty": 30,
+  "chunk_pause_penalty_per_min": 2,
+  "chunk_pause_max_penalty": 30,
+  "repetition_penalty_per_token_ratio": 100,
+  "repetition_max_penalty": 15,
+  "minimum_scored_words": 3
+}

@@ -1,0 +1,1 @@
+{"name":"pte-coach-ui","private":true,"type":"module","scripts":{"check":"node --check app/static/app.js && node --check app/static/results.js && node --check app/static/recorder.js && node --check app/static/charts.js && node --check app/static/pronunciation.js"}}

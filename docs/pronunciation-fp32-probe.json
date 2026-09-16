@@ -1,0 +1,1828 @@
+[
+  {
+    "status": "experimental",
+    "provider": "local-phoneme-onnx",
+    "accuracy_score": null,
+    "prosody_score": null,
+    "words": [
+      {
+        "word": "the",
+        "index": 0,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "ð",
+            "heard": "ð",
+            "start": 0.2,
+            "end": 0.22,
+            "confidence": 0.9905898571014404,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 0.22,
+            "end": 0.24,
+            "confidence": 0.9636136889457703,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 0.2,
+        "end": 0.24,
+        "expected": "ð ə",
+        "heard": "ð ə",
+        "status": "matched",
+        "review_count": 0
+      },
+      {
+        "word": "development",
+        "index": 1,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "d",
+            "heard": "d",
+            "start": 0.28,
+            "end": 0.3,
+            "confidence": 0.9807064533233643,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɪ",
+            "heard": "ɪ",
+            "start": 0.32,
+            "end": 0.34,
+            "confidence": 0.4596850275993347,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "v",
+            "heard": "v",
+            "start": 0.42,
+            "end": 0.44,
+            "confidence": 0.9885125160217285,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɛ",
+            "heard": "ɛ",
+            "start": 0.46,
+            "end": 0.48,
+            "confidence": 0.906561553478241,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "l",
+            "heard": "l",
+            "start": 0.52,
+            "end": 0.54,
+            "confidence": 0.9934984445571899,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 0.56,
+            "end": 0.58,
+            "confidence": 0.4963969588279724,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "p",
+            "heard": "p",
+            "start": 0.64,
+            "end": 0.66,
+            "confidence": 0.9643012285232544,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "m",
+            "heard": "m",
+            "start": 0.68,
+            "end": 0.72,
+            "confidence": 0.7941840291023254,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 0.72,
+            "end": 0.74,
+            "confidence": 0.9369564652442932,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 0.78,
+            "end": 0.82,
+            "confidence": 0.9145005941390991,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "t",
+            "heard": "t",
+            "start": 0.82,
+            "end": 0.84,
+            "confidence": 0.9598345160484314,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 0.28,
+        "end": 0.84,
+        "expected": "d ɪ v ɛ l ə p m ə n t",
+        "heard": "d ɪ v ɛ l ə p m ə n t",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "of",
+        "index": 2,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "ʌ",
+            "heard": "ʌ",
+            "start": 0.88,
+            "end": 0.9,
+            "confidence": 0.9575372934341431,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "v",
+            "heard": "v",
+            "start": 0.94,
+            "end": 0.96,
+            "confidence": 0.9898368716239929,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 0.88,
+        "end": 0.96,
+        "expected": "ʌ v",
+        "heard": "ʌ v",
+        "status": "matched",
+        "review_count": 0
+      },
+      {
+        "word": "modern",
+        "index": 3,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "m",
+            "heard": "m",
+            "start": 1.02,
+            "end": 1.04,
+            "confidence": 0.9961644411087036,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ɑ",
+            "heard": "æ",
+            "start": 1.06,
+            "end": 1.08,
+            "confidence": 0.890040934085846,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "substitution",
+            "expected": "d",
+            "heard": "ɾ",
+            "start": 1.2,
+            "end": 1.22,
+            "confidence": 0.6855334639549255,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "ɚ",
+            "heard": "ɚ",
+            "start": 1.24,
+            "end": 1.26,
+            "confidence": 0.8085919618606567,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "ɹ",
+            "start": 1.34,
+            "end": 1.36,
+            "confidence": 0.619327187538147,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "æ",
+            "start": 1.38,
+            "end": 1.4,
+            "confidence": 0.801750123500824,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 1.42,
+            "end": 1.46,
+            "confidence": 0.7590525150299072,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "d",
+            "start": 1.46,
+            "end": 1.48,
+            "confidence": 0.8030982613563538,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 1.02,
+        "end": 1.48,
+        "expected": "m ɑ d ɚ n",
+        "heard": "m æ ɾ ɚ ɹ æ n d",
+        "status": "review",
+        "review_count": 1
+      },
+      {
+        "word": "technology",
+        "index": 4,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "t",
+            "heard": "t",
+            "start": 1.52,
+            "end": 1.54,
+            "confidence": 0.9733413457870483,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɛ",
+            "heard": "ɛ",
+            "start": 1.56,
+            "end": 1.58,
+            "confidence": 0.8961977362632751,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "k",
+            "heard": "k",
+            "start": 1.64,
+            "end": 1.66,
+            "confidence": 0.9903185367584229,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 1.7,
+            "end": 1.74,
+            "confidence": 0.8462105989456177,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɑ",
+            "heard": "ɑ",
+            "start": 1.76,
+            "end": 1.78,
+            "confidence": 0.6545076370239258,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "l",
+            "start": 1.84,
+            "end": 1.86,
+            "confidence": 0.90590900182724,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "l",
+            "heard": "l",
+            "start": 1.94,
+            "end": 1.96,
+            "confidence": 0.9674535393714905,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 1.96,
+            "end": 2.0,
+            "confidence": 0.6371473670005798,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "dʒ",
+            "heard": "dʒ",
+            "start": 2.06,
+            "end": 2.08,
+            "confidence": 0.9282209277153015,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "i",
+            "heard": "i",
+            "start": 2.12,
+            "end": 2.14,
+            "confidence": 0.9439585208892822,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 1.52,
+        "end": 2.14,
+        "expected": "t ɛ k n ɑ l ə dʒ i",
+        "heard": "t ɛ k n ɑ l l ə dʒ i",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "has",
+        "index": 5,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "h",
+            "heard": "h",
+            "start": 2.26,
+            "end": 2.3,
+            "confidence": 0.9535630345344543,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "æ",
+            "heard": "ɐ",
+            "start": 2.32,
+            "end": 2.34,
+            "confidence": 0.36523857712745667,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "z",
+            "heard": "z",
+            "start": 2.38,
+            "end": 2.4,
+            "confidence": 0.5507515072822571,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 2.26,
+        "end": 2.4,
+        "expected": "h æ z",
+        "heard": "h ɐ z",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "significantly",
+        "index": 6,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "s",
+            "heard": "s",
+            "start": 2.4,
+            "end": 2.42,
+            "confidence": 0.7650132775306702,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "ɪ",
+            "heard": "ɪ",
+            "start": 2.48,
+            "end": 2.5,
+            "confidence": 0.9337892532348633,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɡ",
+            "heard": "ɡ",
+            "start": 2.54,
+            "end": 2.56,
+            "confidence": 0.9467645883560181,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 2.6,
+            "end": 2.62,
+            "confidence": 0.9932102560997009,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɪ",
+            "heard": "ɪ",
+            "start": 2.62,
+            "end": 2.64,
+            "confidence": 0.9640269875526428,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "f",
+            "heard": "f",
+            "start": 2.7,
+            "end": 2.72,
+            "confidence": 0.9644469618797302,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɪ",
+            "heard": "ɪ",
+            "start": 2.74,
+            "end": 2.76,
+            "confidence": 0.9201644062995911,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "k",
+            "heard": "k",
+            "start": 2.84,
+            "end": 2.86,
+            "confidence": 0.9928391575813293,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 2.88,
+            "end": 2.9,
+            "confidence": 0.8966283202171326,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 2.94,
+            "end": 2.98,
+            "confidence": 0.9547165036201477,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "t",
+            "heard": "t",
+            "start": 2.98,
+            "end": 3.0,
+            "confidence": 0.9626285433769226,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "l",
+            "heard": "l",
+            "start": 3.04,
+            "end": 3.06,
+            "confidence": 0.9880604147911072,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "i",
+            "heard": "i",
+            "start": 3.08,
+            "end": 3.1,
+            "confidence": 0.9890785813331604,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 2.4,
+        "end": 3.1,
+        "expected": "s ɪ ɡ n ɪ f ɪ k ə n t l i",
+        "heard": "s ɪ ɡ n ɪ f ɪ k ə n t l i",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "changed",
+        "index": 7,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "tʃ",
+            "heard": "tʃ",
+            "start": 3.22,
+            "end": 3.24,
+            "confidence": 0.8980062007904053,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "eɪ",
+            "heard": "eɪ",
+            "start": 3.32,
+            "end": 3.34,
+            "confidence": 0.9628631472587585,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 3.5,
+            "end": 3.52,
+            "confidence": 0.9427030086517334,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "dʒ",
+            "heard": "dʒ",
+            "start": 3.58,
+            "end": 3.6,
+            "confidence": 0.8039236664772034,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "d",
+            "heard": "d",
+            "start": 3.62,
+            "end": 3.66,
+            "confidence": 0.8083636164665222,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 3.22,
+        "end": 3.66,
+        "expected": "tʃ eɪ n dʒ d",
+        "heard": "tʃ eɪ n dʒ d",
+        "status": "matched",
+        "review_count": 0
+      },
+      {
+        "word": "the",
+        "index": 8,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "ð",
+            "heard": "ð",
+            "start": 3.72,
+            "end": 3.74,
+            "confidence": 0.9940286874771118,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 3.74,
+            "end": 3.76,
+            "confidence": 0.973113477230072,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 3.72,
+        "end": 3.76,
+        "expected": "ð ə",
+        "heard": "ð ə",
+        "status": "matched",
+        "review_count": 0
+      },
+      {
+        "word": "way",
+        "index": 9,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "w",
+            "heard": "w",
+            "start": 3.84,
+            "end": 3.86,
+            "confidence": 0.980701208114624,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "eɪ",
+            "heard": "eɪ",
+            "start": 3.88,
+            "end": 3.9,
+            "confidence": 0.8331243991851807,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 3.84,
+        "end": 3.9,
+        "expected": "w eɪ",
+        "heard": "w eɪ",
+        "status": "matched",
+        "review_count": 0
+      },
+      {
+        "word": "people",
+        "index": 10,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "p",
+            "heard": "p",
+            "start": 4.08,
+            "end": 4.1,
+            "confidence": 0.9879488945007324,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "i",
+            "heard": "i",
+            "start": 4.12,
+            "end": 4.14,
+            "confidence": 0.7342473268508911,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "p",
+            "heard": "p",
+            "start": 4.24,
+            "end": 4.26,
+            "confidence": 0.9889946579933167,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 4.3,
+            "end": 4.32,
+            "confidence": 0.801064670085907,
+            "shared_boundary": true,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "l",
+            "heard": "l",
+            "start": 4.3,
+            "end": 4.32,
+            "confidence": 0.801064670085907,
+            "shared_boundary": true,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 4.08,
+        "end": 4.32,
+        "expected": "p i p ə l",
+        "heard": "p i p ə l",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "communicate",
+        "index": 11,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "k",
+            "heard": "k",
+            "start": 4.42,
+            "end": 4.44,
+            "confidence": 0.9936833381652832,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ə",
+            "heard": "ʌ",
+            "start": 4.46,
+            "end": 4.48,
+            "confidence": 0.4617297351360321,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "m",
+            "heard": "m",
+            "start": 4.54,
+            "end": 4.56,
+            "confidence": 0.978927493095398,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "j",
+            "heard": "j",
+            "start": 4.6,
+            "end": 4.64,
+            "confidence": 0.7943738698959351,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "u",
+            "heard": "u",
+            "start": 4.64,
+            "end": 4.66,
+            "confidence": 0.9263501167297363,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 4.74,
+            "end": 4.76,
+            "confidence": 0.9925865530967712,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ə",
+            "heard": "ɪ",
+            "start": 4.78,
+            "end": 4.8,
+            "confidence": 0.5746027827262878,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "k",
+            "heard": "k",
+            "start": 4.88,
+            "end": 4.9,
+            "confidence": 0.9874656796455383,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "eɪ",
+            "heard": "eɪ",
+            "start": 4.96,
+            "end": 4.98,
+            "confidence": 0.9384917616844177,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "t",
+            "heard": "d",
+            "start": 5.26,
+            "end": 5.28,
+            "confidence": 0.9563067555427551,
+            "shared_boundary": false,
+            "status": "review"
+          }
+        ],
+        "supported": true,
+        "start": 4.42,
+        "end": 5.28,
+        "expected": "k ə m j u n ə k eɪ t",
+        "heard": "k ʌ m j u n ɪ k eɪ d",
+        "status": "review",
+        "review_count": 1
+      }
+    ],
+    "review_count": 2,
+    "sequence_match_index": null,
+    "reliable_phone_count": 55,
+    "observed_phone_count": 73,
+    "note": "本地音素分析（实验）：参考音素与独立识别结果对照，仅提示复听候选；模型也会识别错。尚未校准发音分，不计入 Practice Score。弱读、口音差异、未释放词尾和音素边界需结合原录音判断。",
+    "elapsed_seconds": 0.84,
+    "model": {
+      "repository": "onnx-community/wav2vec2-lv-60-espeak-cv-ft-ONNX",
+      "revision": "c69750f5043e5e1f8a71ab95dd3b98338c280c92",
+      "precision": "float32",
+      "device": "cpu",
+      "alignment": "dictionary-variant edit alignment; approximate CTC frame boundaries",
+      "dictionary": "CMUdict"
+    }
+  },
+  {
+    "status": "experimental",
+    "provider": "local-phoneme-onnx",
+    "accuracy_score": null,
+    "prosody_score": null,
+    "words": [
+      {
+        "word": "the",
+        "index": 0,
+        "phonemes": [
+          {
+            "kind": "substitution",
+            "expected": "ð",
+            "heard": "z",
+            "start": 1.44,
+            "end": 1.46,
+            "confidence": 0.41010409593582153,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 1.5,
+            "end": 1.52,
+            "confidence": 0.3023984730243683,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 1.44,
+        "end": 1.52,
+        "expected": "ð ə",
+        "heard": "z ə",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "development",
+        "index": 1,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "d",
+            "heard": "d",
+            "start": 1.74,
+            "end": 1.76,
+            "confidence": 0.8354567885398865,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ɪ",
+            "heard": "i",
+            "start": 1.8,
+            "end": 1.82,
+            "confidence": 0.6689051389694214,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "v",
+            "heard": "v",
+            "start": 1.98,
+            "end": 2.0,
+            "confidence": 0.8729599118232727,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ɛ",
+            "heard": "a",
+            "start": 2.02,
+            "end": 2.04,
+            "confidence": 0.8670490980148315,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "substitution",
+            "expected": "l",
+            "heard": "r",
+            "start": 2.12,
+            "end": 2.14,
+            "confidence": 0.4597618579864502,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ə",
+            "heard": "a",
+            "start": 2.16,
+            "end": 2.18,
+            "confidence": 0.4513804614543915,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "p",
+            "heard": "v",
+            "start": 2.28,
+            "end": 2.3,
+            "confidence": 0.582527220249176,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "m",
+            "heard": "m",
+            "start": 2.42,
+            "end": 2.44,
+            "confidence": 0.9917407035827637,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ə",
+            "heard": "a",
+            "start": 2.46,
+            "end": 2.48,
+            "confidence": 0.3370383381843567,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 2.58,
+            "end": 2.6,
+            "confidence": 0.9640531539916992,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "t",
+            "heard": "t",
+            "start": 2.64,
+            "end": 2.66,
+            "confidence": 0.9194296002388,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "ɑ",
+            "start": 2.72,
+            "end": 2.74,
+            "confidence": 0.41656678915023804,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 1.74,
+        "end": 2.74,
+        "expected": "d ɪ v ɛ l ə p m ə n t",
+        "heard": "d i v a r a v m a n t ɑ",
+        "status": "review",
+        "review_count": 1
+      },
+      {
+        "word": "of",
+        "index": 2,
+        "phonemes": [
+          {
+            "kind": "substitution",
+            "expected": "ʌ",
+            "heard": "h",
+            "start": 2.94,
+            "end": 2.96,
+            "confidence": 0.4063988924026489,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "v",
+            "heard": "o",
+            "start": 2.98,
+            "end": 3.0,
+            "confidence": 0.4167371094226837,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 2.94,
+        "end": 3.0,
+        "expected": "ʌ v",
+        "heard": "h o",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "modern",
+        "index": 3,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "m",
+            "heard": "m",
+            "start": 3.18,
+            "end": 3.2,
+            "confidence": 0.9929996728897095,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɑ",
+            "heard": "ɑ",
+            "start": 3.24,
+            "end": 3.26,
+            "confidence": 0.35986799001693726,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "d",
+            "heard": "r",
+            "start": 3.34,
+            "end": 3.36,
+            "confidence": 0.8206865191459656,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ɚ",
+            "heard": "d",
+            "start": 3.44,
+            "end": 3.46,
+            "confidence": 0.5986067652702332,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "n",
+            "heard": "a",
+            "start": 3.5,
+            "end": 3.52,
+            "confidence": 0.41265127062797546,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 3.18,
+        "end": 3.52,
+        "expected": "m ɑ d ɚ n",
+        "heard": "m ɑ r d a",
+        "status": "review",
+        "review_count": 1
+      },
+      {
+        "word": "technology",
+        "index": 4,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "t",
+            "heard": "t",
+            "start": 3.88,
+            "end": 3.9,
+            "confidence": 0.9192214608192444,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ɛ",
+            "heard": "e",
+            "start": 3.96,
+            "end": 3.98,
+            "confidence": 0.40185290575027466,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "k",
+            "heard": "ɡ",
+            "start": 4.04,
+            "end": 4.06,
+            "confidence": 0.9354596138000488,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 4.14,
+            "end": 4.16,
+            "confidence": 0.9890438318252563,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "ɑ",
+            "heard": "ɑ",
+            "start": 4.18,
+            "end": 4.2,
+            "confidence": 0.826393723487854,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "l",
+            "heard": "r",
+            "start": 4.28,
+            "end": 4.3,
+            "confidence": 0.33374685049057007,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ə",
+            "heard": "a",
+            "start": 4.34,
+            "end": 4.36,
+            "confidence": 0.6683498620986938,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "dʒ",
+            "heard": "dʒ",
+            "start": 4.48,
+            "end": 4.5,
+            "confidence": 0.5867975950241089,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "i",
+            "heard": "i",
+            "start": 4.56,
+            "end": 4.58,
+            "confidence": 0.9212226271629333,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 3.88,
+        "end": 4.58,
+        "expected": "t ɛ k n ɑ l ə dʒ i",
+        "heard": "t e ɡ n ɑ r a dʒ i",
+        "status": "review",
+        "review_count": 1
+      },
+      {
+        "word": "has",
+        "index": 5,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "h",
+            "heard": "h",
+            "start": 4.76,
+            "end": 4.78,
+            "confidence": 0.9723114371299744,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "æ",
+            "heard": "æ",
+            "start": 4.82,
+            "end": 4.84,
+            "confidence": 0.29608356952667236,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "ð",
+            "start": 5.08,
+            "end": 5.1,
+            "confidence": 0.43518999218940735,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "z",
+            "heard": "e",
+            "start": 5.16,
+            "end": 5.18,
+            "confidence": 0.3559815585613251,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 4.76,
+        "end": 5.18,
+        "expected": "h æ z",
+        "heard": "h æ ð e",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "significantly",
+        "index": 6,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "s",
+            "heard": "s",
+            "start": 5.54,
+            "end": 5.56,
+            "confidence": 0.8713865876197815,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ɪ",
+            "heard": "e",
+            "start": 5.6,
+            "end": 5.62,
+            "confidence": 0.8340902924537659,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "match",
+            "expected": "ɡ",
+            "heard": "ɡ",
+            "start": 5.66,
+            "end": 5.68,
+            "confidence": 0.9388771057128906,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 5.78,
+            "end": 5.8,
+            "confidence": 0.9893593788146973,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "deletion",
+            "expected": "ɪ",
+            "heard": null,
+            "start": null,
+            "end": null,
+            "confidence": null,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "deletion",
+            "expected": "f",
+            "heard": null,
+            "start": null,
+            "end": null,
+            "confidence": null,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ɪ",
+            "heard": "e",
+            "start": 5.82,
+            "end": 5.84,
+            "confidence": 0.6567252278327942,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "k",
+            "heard": "k",
+            "start": 6.04,
+            "end": 6.06,
+            "confidence": 0.9861974120140076,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ə",
+            "heard": "e",
+            "start": 6.1,
+            "end": 6.12,
+            "confidence": 0.2718885838985443,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 6.18,
+            "end": 6.2,
+            "confidence": 0.9860242009162903,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "d",
+            "start": 6.24,
+            "end": 6.26,
+            "confidence": 0.9856117963790894,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "t",
+            "heard": "a",
+            "start": 6.26,
+            "end": 6.28,
+            "confidence": 0.7823890447616577,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "l",
+            "heard": "r",
+            "start": 6.36,
+            "end": 6.38,
+            "confidence": 0.41737398505210876,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "i",
+            "heard": "i",
+            "start": 6.4,
+            "end": 6.42,
+            "confidence": 0.9495303630828857,
+            "shared_boundary": false,
+            "status": "matched"
+          }
+        ],
+        "supported": true,
+        "start": 5.54,
+        "end": 6.42,
+        "expected": "s ɪ ɡ n ɪ f ɪ k ə n t l i",
+        "heard": "s e ɡ n e k e n d a r i",
+        "status": "review",
+        "review_count": 1
+      },
+      {
+        "word": "changed",
+        "index": 7,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "tʃ",
+            "heard": "tʃ",
+            "start": 6.8,
+            "end": 6.82,
+            "confidence": 0.68076092004776,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "eɪ",
+            "heard": "e",
+            "start": 6.88,
+            "end": 6.9,
+            "confidence": 0.46943336725234985,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "n",
+            "heard": "n",
+            "start": 7.02,
+            "end": 7.04,
+            "confidence": 0.8845241665840149,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "dʒ",
+            "heard": "dʒ",
+            "start": 7.1,
+            "end": 7.12,
+            "confidence": 0.7864903807640076,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "i",
+            "start": 7.14,
+            "end": 7.16,
+            "confidence": 0.9545097947120667,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "d",
+            "heard": "d",
+            "start": 7.24,
+            "end": 7.26,
+            "confidence": 0.9467830657958984,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "insertion",
+            "expected": null,
+            "heard": "a",
+            "start": 7.3,
+            "end": 7.32,
+            "confidence": 0.8364376425743103,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 6.8,
+        "end": 7.32,
+        "expected": "tʃ eɪ n dʒ d",
+        "heard": "tʃ e n dʒ i d a",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "the",
+        "index": 8,
+        "phonemes": [
+          {
+            "kind": "substitution",
+            "expected": "ð",
+            "heard": "d",
+            "start": 7.68,
+            "end": 7.7,
+            "confidence": 0.45768263936042786,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "match",
+            "expected": "ə",
+            "heard": "ə",
+            "start": 7.74,
+            "end": 7.76,
+            "confidence": 0.24880683422088623,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 7.68,
+        "end": 7.76,
+        "expected": "ð ə",
+        "heard": "d ə",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "way",
+        "index": 9,
+        "phonemes": [
+          {
+            "kind": "substitution",
+            "expected": "w",
+            "heard": "v",
+            "start": 7.94,
+            "end": 7.96,
+            "confidence": 0.9821721911430359,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "substitution",
+            "expected": "eɪ",
+            "heard": "aɪ",
+            "start": 8.02,
+            "end": 8.04,
+            "confidence": 0.49990132451057434,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 7.94,
+        "end": 8.04,
+        "expected": "w eɪ",
+        "heard": "v aɪ",
+        "status": "review",
+        "review_count": 1
+      },
+      {
+        "word": "people",
+        "index": 10,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "p",
+            "heard": "p",
+            "start": 8.42,
+            "end": 8.44,
+            "confidence": 0.9326202869415283,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "i",
+            "heard": "i",
+            "start": 8.52,
+            "end": 8.54,
+            "confidence": 0.9470131993293762,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "p",
+            "heard": "p",
+            "start": 8.68,
+            "end": 8.7,
+            "confidence": 0.8484996557235718,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "deletion",
+            "expected": "ə",
+            "heard": null,
+            "start": null,
+            "end": null,
+            "confidence": null,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "l",
+            "heard": "ɑ",
+            "start": 8.76,
+            "end": 8.78,
+            "confidence": 0.42105090618133545,
+            "shared_boundary": false,
+            "status": "uncertain"
+          }
+        ],
+        "supported": true,
+        "start": 8.42,
+        "end": 8.78,
+        "expected": "p i p ə l",
+        "heard": "p i p ɑ",
+        "status": "uncertain",
+        "review_count": 0
+      },
+      {
+        "word": "communicate",
+        "index": 11,
+        "phonemes": [
+          {
+            "kind": "match",
+            "expected": "k",
+            "heard": "k",
+            "start": 8.96,
+            "end": 8.98,
+            "confidence": 0.9719737768173218,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ə",
+            "heard": "a",
+            "start": 9.04,
+            "end": 9.06,
+            "confidence": 0.8830443024635315,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "match",
+            "expected": "m",
+            "heard": "m",
+            "start": 9.14,
+            "end": 9.16,
+            "confidence": 0.9851735830307007,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "match",
+            "expected": "j",
+            "heard": "j",
+            "start": 9.16,
+            "end": 9.2,
+            "confidence": 0.5816449522972107,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "u",
+            "heard": "o",
+            "start": 9.2,
+            "end": 9.22,
+            "confidence": 0.3729950189590454,
+            "shared_boundary": false,
+            "status": "uncertain"
+          },
+          {
+            "kind": "substitution",
+            "expected": "n",
+            "heard": "r",
+            "start": 9.3,
+            "end": 9.32,
+            "confidence": 0.8401192426681519,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "substitution",
+            "expected": "ə",
+            "heard": "i",
+            "start": 9.34,
+            "end": 9.36,
+            "confidence": 0.9281001091003418,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "match",
+            "expected": "k",
+            "heard": "k",
+            "start": 9.44,
+            "end": 9.46,
+            "confidence": 0.9834827184677124,
+            "shared_boundary": false,
+            "status": "matched"
+          },
+          {
+            "kind": "substitution",
+            "expected": "eɪ",
+            "heard": "aɪ",
+            "start": 9.52,
+            "end": 9.54,
+            "confidence": 0.8118352890014648,
+            "shared_boundary": false,
+            "status": "review"
+          },
+          {
+            "kind": "substitution",
+            "expected": "t",
+            "heard": "d",
+            "start": 9.7,
+            "end": 9.72,
+            "confidence": 0.8590458631515503,
+            "shared_boundary": false,
+            "status": "review"
+          }
+        ],
+        "supported": true,
+        "start": 8.96,
+        "end": 9.72,
+        "expected": "k ə m j u n ə k eɪ t",
+        "heard": "k a m j o r i k aɪ d",
+        "status": "review",
+        "review_count": 5
+      }
+    ],
+    "review_count": 10,
+    "sequence_match_index": null,
+    "reliable_phone_count": 35,
+    "observed_phone_count": 71,
+    "note": "本地音素分析（实验）：参考音素与独立识别结果对照，仅提示复听候选；模型也会识别错。尚未校准发音分，不计入 Practice Score。弱读、口音差异、未释放词尾和音素边界需结合原录音判断。",
+    "elapsed_seconds": 1.33,
+    "model": {
+      "repository": "onnx-community/wav2vec2-lv-60-espeak-cv-ft-ONNX",
+      "revision": "c69750f5043e5e1f8a71ab95dd3b98338c280c92",
+      "precision": "float32",
+      "device": "cpu",
+      "alignment": "dictionary-variant edit alignment; approximate CTC frame boundaries",
+      "dictionary": "CMUdict"
+    }
+  }
+]

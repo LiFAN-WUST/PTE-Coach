@@ -1,0 +1,12 @@
+{
+  "repo": "onnx-community/wav2vec2-lv-60-espeak-cv-ft-ONNX",
+  "revision": "c69750f5043e5e1f8a71ab95dd3b98338c280c92",
+  "files": [
+    {
+      "path": "onnx/model.onnx",
+      "sha256": "93265694093f5f91497181ed9d7791f43bc818d2e23c46caf988fd9b8b1a1fba",
+      "size": 1264009987
+    }
+  ],
+  "license": "Apache-2.0"
+}

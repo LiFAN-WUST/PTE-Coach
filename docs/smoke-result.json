@@ -1,0 +1,30 @@
+{
+  "status": "done",
+  "elapsed_seconds": 14.5,
+  "transcript": "With her white paint and her scarlet smoke stack, the Inverish Seal, one of the two small steamers that, during the summer months, plied up and down the lock, and incidentally carried communication between inverse shield and cryin' on.",
+  "duration": 14.84,
+  "quality": {
+    "usable": true,
+    "rms_dbfs": -19.01,
+    "clipping_ratio": 0.0,
+    "reasons": [],
+    "noise_snr_db": null,
+    "note": "\u8d28\u91cf\u95e8\u69db\u4e0d\u80fd\u6392\u9664\u80cc\u666f\u4eba\u58f0\u6216\u6240\u6709\u566a\u58f0\u3002"
+  },
+  "provenance": {
+    "asr": "faster-whisper:tiny.en",
+    "alignment": "asr-estimated",
+    "vad": "silero-via-faster-whisper",
+    "dependencies": {
+      "faster-whisper": "1.2.1",
+      "librosa": "1.0.0",
+      "numpy": "2.3.5"
+    },
+    "rubric_version": "ra-heuristic-0.1.0"
+  },
+  "features": {
+    "wpm": 161.5,
+    "speaking_duration": 13.368,
+    "pause_count": 3
+  }
+}

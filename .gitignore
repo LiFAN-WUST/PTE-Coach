@@ -1,0 +1,15 @@
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+logs/
+data/
+.env
+*.pyc
+
+# Large local model weights stay in the desktop runtime package.
+models/small.en/model.bin
+models/phoneme-en/onnx/*.onnx
+
+# Personal reanalysis output stays with the local training records.
+docs/algorithm-v2-user-reanalysis.json
