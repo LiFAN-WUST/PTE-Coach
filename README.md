@@ -13,7 +13,7 @@
 
 ## Windows 快速启动（推荐先用 CPU）
 
-本仓库是源代码版本。完整的本机模型和已安装依赖在桌面的 `PTE-Coach-Local-2026-09-16.zip` 中；从 GitHub 新克隆后，需要按下面步骤安装 Python、FFmpeg、依赖并准备模型，或从该 ZIP 复制 `models` 和 `.venv`。
+本仓库是源代码版本。完整的本机模型和已安装依赖在桌面的 `PTE-Coach-Local-2026-09-16.zip` 中；从 GitHub 新克隆后，需要按下面步骤安装 Python、FFmpeg、依赖并准备模型，或从该 ZIP 复制 `models` 和 `.venv`。两个运行模型也已放在私密 Release，下载和校验方法见 [模型下载](models/模型下载.md)；仓库不使用 Git LFS。
 
 安装 Python **3.12** 和 FFmpeg，并确保 `ffmpeg -version` 可运行。解压项目，在项目目录打开 PowerShell：
 
