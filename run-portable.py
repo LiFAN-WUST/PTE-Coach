@@ -31,4 +31,4 @@ if __name__ == '__main__':
         'pid': os.getpid(), 'started': datetime.now(timezone.utc).isoformat(),
         'executables': [sys.executable, sys._base_executable],
     }), encoding='utf-8')
-    uvicorn.run('app.main:create_app', factory=True, host='127.0.0.1', port=8765)
+    uvicorn.run('app.main:create_app', factory=True, host='127.0.0.1', port=int(os.getenv('PTE_PORT', '8765')))
