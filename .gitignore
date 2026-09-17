@@ -13,3 +13,5 @@ models/phoneme-en/onnx/*.onnx
 
 # Personal reanalysis output stays with the local training records.
 docs/algorithm-v2-user-reanalysis.json
+docs/local-pronunciation-verification.json
+docs/local-smoke-result.json
